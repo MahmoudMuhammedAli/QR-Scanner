@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "doneWithIt",
+    "name": "Alex Scanner",
     "slug": "doneWithIt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/qr.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,8 +20,9 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+      "package":"alex.scanner",
+      "adaptiveIcon": { 
+        "foregroundImage": "./assets/qr.png",
         "backgroundColor": "#FFFFFF"
       }
     },
